@@ -1,0 +1,12 @@
+/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/obj/Debug/net7.0/BraiseBreakfast.Contracts.csproj.AssemblyReference.cache
+/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/obj/Debug/net7.0/BraiseBreakfast.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/obj/Debug/net7.0/BraiseBreakfast.Contracts.AssemblyInfoInputs.cache
+/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/obj/Debug/net7.0/BraiseBreakfast.Contracts.AssemblyInfo.cs
+/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/obj/Debug/net7.0/BraiseBreakfast.Contracts.csproj.CoreCompileInputs.cache
+/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/bin/Debug/net7.0/BraiseBreakfast.Contracts.deps.json
+/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/bin/Debug/net7.0/BraiseBreakfast.Contracts.dll
+/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/bin/Debug/net7.0/BraiseBreakfast.Contracts.pdb
+/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/obj/Debug/net7.0/BraiseBreakfast.Contracts.dll
+/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/obj/Debug/net7.0/refint/BraiseBreakfast.Contracts.dll
+/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/obj/Debug/net7.0/BraiseBreakfast.Contracts.pdb
+/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/obj/Debug/net7.0/ref/BraiseBreakfast.Contracts.dll

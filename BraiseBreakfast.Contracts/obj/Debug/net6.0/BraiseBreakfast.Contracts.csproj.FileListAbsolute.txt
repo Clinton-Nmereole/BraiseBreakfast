@@ -1,0 +1,5 @@
+/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/obj/Debug/net6.0/BraiseBreakfast.Contracts.csproj.AssemblyReference.cache
+/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/obj/Debug/net6.0/BraiseBreakfast.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/obj/Debug/net6.0/BraiseBreakfast.Contracts.AssemblyInfoInputs.cache
+/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/obj/Debug/net6.0/BraiseBreakfast.Contracts.AssemblyInfo.cs
+/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/obj/Debug/net6.0/BraiseBreakfast.Contracts.csproj.CoreCompileInputs.cache

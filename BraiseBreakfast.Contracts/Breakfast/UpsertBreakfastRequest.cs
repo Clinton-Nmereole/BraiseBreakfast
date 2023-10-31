@@ -1,6 +1,6 @@
-namespace BraiseBreakfast.Contracts.Breakfast
+namespace BraiseBreakfast.Contracts.Breakfast;
 
-    public record
-    UpsertBreakfastRequest(string Name, string Description, string ImageUrl,
-                           DateTime StartDateTime, DateTime EndDateTime,
-                           List<string> Savory, List<string> Sweet);
+public record UpsertBreakfastRequest(string Name, string Description,
+                                     string ImageUrl, DateTime StartDateTime,
+                                     DateTime EndDateTime, List<string> Savory,
+                                     List<string> Sweet);

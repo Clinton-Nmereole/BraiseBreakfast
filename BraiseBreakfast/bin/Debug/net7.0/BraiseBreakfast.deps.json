@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "BraiseBreakfast/1.0.0": {
+        "dependencies": {
+          "BraiseBreakfast.Contracts": "1.0.0",
+          "ErrorOr": "0.1.0"
+        },
+        "runtime": {
+          "BraiseBreakfast.dll": {}
+        }
+      },
+      "ErrorOr/0.1.0": {
+        "runtime": {
+          "lib/net6.0/ErrorOr.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.0.0"
+          }
+        }
+      },
+      "BraiseBreakfast.Contracts/1.0.0": {
+        "runtime": {
+          "BraiseBreakfast.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BraiseBreakfast/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ErrorOr/0.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-adIVrA1Ixck5oZ79ZKB5f7k+aVlg4AB47nNHY14+qI8d+4//sTe0Dvbp8AIJEz/94OimmWjdGfei67q9UZPGig==",
+      "path": "erroror/0.1.0",
+      "hashPath": "erroror.0.1.0.nupkg.sha512"
+    },
+    "BraiseBreakfast.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

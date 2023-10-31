@@ -4,14 +4,14 @@
     "/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast/BraiseBreakfast.csproj": {}
   },
   "projects": {
-    "/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast/BraiseBreakfast.csproj": {
+    "/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/BraiseBreakfast.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast/BraiseBreakfast.csproj",
-        "projectName": "BraiseBreakfast",
-        "projectPath": "/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast/BraiseBreakfast.csproj",
+        "projectUniqueName": "/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/BraiseBreakfast.Contracts.csproj",
+        "projectName": "BraiseBreakfast.Contracts",
+        "projectPath": "/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/BraiseBreakfast.Contracts.csproj",
         "packagesPath": "/home/clinton/.nuget/packages/",
-        "outputPath": "/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast/obj/",
+        "outputPath": "/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/clinton/.nuget/NuGet/NuGet.Config"
@@ -37,14 +37,73 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.12, 7.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.112/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast/BraiseBreakfast.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast/BraiseBreakfast.csproj",
+        "projectName": "BraiseBreakfast",
+        "projectPath": "/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast/BraiseBreakfast.csproj",
+        "packagesPath": "/home/clinton/.nuget/packages/",
+        "outputPath": "/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/clinton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/BraiseBreakfast.Contracts.csproj": {
+                "projectPath": "/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/BraiseBreakfast.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "ErrorOr": {
               "target": "Package",
-              "version": "[7.0.12, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[0.1.0, )"
             }
           },
           "imports": [
