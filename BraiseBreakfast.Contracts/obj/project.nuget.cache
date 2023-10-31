@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yDFlMN/SXtP8rygCFiNnTm42O5jTmX28gz13Zt2QsLGQMFtDGNupjv3TqrSu5f2EMjJSZ1ABoBLuYroT+oQkaQ==",
+  "success": true,
+  "projectFilePath": "/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast.Contracts/BraiseBreakfast.Contracts.csproj",
+  "expectedPackageFiles": [
+    "/home/clinton/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.12/microsoft.aspnetcore.app.ref.7.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
