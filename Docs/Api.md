@@ -1,6 +1,6 @@
 # BraiseBreakfast API
 
-- [Buber Breakfast API](#buber-breakfast-api)
+- [BraiseBreakfast API](#braise-breakfast-api)
   - [Create Breakfast](#create-breakfast)
     - [Create Breakfast Request](#create-breakfast-request)
     - [Create Breakfast Response](#create-breakfast-response)
