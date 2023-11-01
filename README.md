@@ -22,6 +22,14 @@ RESTAPI built with ASP.NET7 for a breakfast website. It offers all CRUD function
    dotnet run --project ./BuberBreakfast
    ```
 4. Test results with Postman
+   ```bash
+   firefox https://www.postman.com/
+   ```
+   OR
+   ```bash
+   google-chrome https://www.postman.com/
+   ``` 
+
 
 # BraiseBreakfast API
 
