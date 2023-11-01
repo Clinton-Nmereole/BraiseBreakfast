@@ -2,7 +2,7 @@
 RESTAPI built with ASP.NET7 for a breakfast website. It offers all CRUD functionality for the website such as creating breakfast, reading breakfast, updating breakfast and deleting breakfast.
 
 # Technologies:
-1. ASP.NET7
+1. ASP.NET 7
 2. dotnet CLI (runtime and sdk)
 3. Neovim (code editor)
 4. Omnisharp Language server (LSP)
