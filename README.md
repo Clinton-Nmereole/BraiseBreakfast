@@ -1,5 +1,27 @@
 # BraiseBreakfast
-RESTAPI built with ASP.NET7 for a breakfast website. It offers all CRUD functionality for the website such as creating breakfast, reading breakfast, updating breakfast and deleting breakfast
+RESTAPI built with ASP.NET7 for a breakfast website. It offers all CRUD functionality for the website such as creating breakfast, reading breakfast, updating breakfast and deleting breakfast.
+
+# Technologies:
+1. ASP.NET7
+2. dotnet CLI (runtime and sdk)
+3. Neovim (code editor)
+4. Omnisharp Language server (LSP)
+5. Null_ls for formatting (neovim plugin)
+
+# Usage
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Clinton-Nmereole/BraiseBreakfast/
+   ```
+2. Go to project Directory
+   ```bash
+   cd BraiseBreakfast
+   ```
+3. Run Project
+   ```bash
+   dotnet run --project ./BuberBreakfast
+   ```
+4. Test results with Postman
 
 # BraiseBreakfast API
 
@@ -166,3 +188,8 @@ DELETE /breakfasts/{{id}}
 ```js
 204 No Content
 ```
+# Credits
+1. FreeCodeCamp youtube channel and website: https://www.youtube.com/@freecodecamp and https://www.freecodecamp.org/
+2. Buber-breakfast by https://github.com/amantinband: Link to project: https://github.com/amantinband/buber-breakfast/tree/main
+3. Video tutorial for project: https://www.youtube.com/watch?v=PmDJIooZjBE&list=PLbHoFtW5JkYZZ_aawNaCoZ05Qi5fCPVY-&index=289
+4. ErrorOr - A simple, fluent discriminated union of an error or a result.
