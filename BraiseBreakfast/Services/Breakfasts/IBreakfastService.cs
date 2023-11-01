@@ -4,11 +4,11 @@ using ErrorOr;
 
 public interface IBreakfastService
 {
-    void CreateBreakfast(Breakfast breakfast);
+    ErrorOr<Created> CreateBreakfast(Breakfast breakfast);
 
     ErrorOr<Breakfast> GetBreakfast(Guid id);
 
-    void UpsertBreakfast(Breakfast breakfast);
+    ErrorOr<UpsertedBreakfast> UpsertBreakfast(Breakfast breakfast);
 
-    void DeleteBreakfast(Guid id);
+    ErrorOr<Deleted> DeleteBreakfast(Guid id);
 }
