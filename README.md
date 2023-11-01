@@ -57,8 +57,8 @@ POST /breakfasts
 
 ```json
 {
-    "name": "Vegan Sunshine",
-    "description": "Vegan everything! Join us for a healthy breakfast..",
+    "name": "Morning Rainbow",
+    "description": "A tasteful rainbow first thing in the morning to kickstart your day",
 	  "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fimage&psig=AOvVaw2M6eqVspNa6CElVfa14-fP&ust=1698866021724000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPC72J__oIIDFQAAAAAdAAAAABAE",
     "startDateTime": "2022-04-08T08:00:00",
     "endDateTime": "2022-04-08T11:00:00",
@@ -87,8 +87,8 @@ Location: {{host}}/Breakfasts/{{id}}
 ```json
 {
     "id": "00000000-0000-0000-0000-000000000000",
-    "name": "Vegan Sunshine",
-    "description": "Vegan everything! Join us for a healthy breakfast..",
+    "name": "Morning Rainbow",
+    "description": "A tasteful rainbow first thing in the morning to kickstart your day",
     "imageUrl": "some Img's url",
     "startDateTime": "2022-04-08T08:00:00",
     "endDateTime": "2022-04-08T11:00:00",
@@ -122,8 +122,8 @@ GET /breakfasts/{{id}}
 ```json
 {
     "id": "00000000-0000-0000-0000-000000000000",
-    "name": "Vegan Sunshine",
-    "description": "Vegan everything! Join us for a healthy breakfast..",
+    "name": "Morning Rainbow",
+    "description": "A tasteful rainbow first thing in the morning to kickstart your day",
     "imageUrl": "some Img's url",
     "startDateTime": "2022-04-08T08:00:00",
     "endDateTime": "2022-04-08T11:00:00",
@@ -150,8 +150,8 @@ PUT /breakfasts/{{id}}
 
 ```json
 {
-    "name": "Vegan Sunshine",
-    "description": "Vegan everything! Join us for a healthy breakfast..",
+    "name": "Morning Rainbow",
+    "description": "A tasteful rainbow first thing in the morning to kickstart your day",
     "imageUrl": "some Img's url",
     "startDateTime": "2022-04-08T08:00:00",
     "endDateTime": "2022-04-08T11:00:00",
