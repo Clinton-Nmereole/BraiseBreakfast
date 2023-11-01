@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
+using ErrorOr;
 using BraiseBreakfast.Contracts.Breakfast;
 using BraiseBreakfast.Models;
 using BraiseBreakfast.Services.Breakfasts;
+using BraiseBreakfast.ServiceErrors;
 namespace BreakfastBreakfast.Controllers;
 
 [ApiController]
@@ -36,7 +38,13 @@ public class BreakfastController : ControllerBase
     [HttpGet("{id:guid}")]
     public IActionResult GetBreakfast(Guid id)
     {
-        Breakfast breakfast = _breakfastService.GetBreakfast(id);
+        ErrorOr<Breakfast> getBreakfastResult = _breakfastService.GetBreakfast(id);
+        if (getBreakfastResult.IsError &&
+            getBreakfastResult.FirstError == Errors.Breakfast.NotFound)
+        {
+            return NotFound();
+        }
+        var breakfast = getBreakfastResult.Value;
         var response = new BreakfastResponse(
             breakfast.Id, breakfast.Name, breakfast.Description, breakfast.ImageUrl,
             breakfast.StartDateTime, breakfast.EndDateTime, breakfast.LastModified,
@@ -47,9 +55,20 @@ public class BreakfastController : ControllerBase
     [HttpPut("{id:guid}")]
     public IActionResult UpsetBreakfast(Guid id, UpsertBreakfastRequest request)
     {
-        return Ok(request);
+        var breakfast =
+            new Breakfast(id, request.Name, request.Description, request.ImageUrl,
+                          request.StartDateTime, request.EndDateTime,
+                          DateTime.UtcNow, request.Savory, request.Sweet);
+        _breakfastService.UpsertBreakfast(breakfast);
+
+        // ToDo: Return status 201 if a new breakfast is created
+        return NoContent();
     }
 
     [HttpDelete("{id:guid}")]
-    public IActionResult DeleteBreakfast(Guid id) { return Ok(id); }
+    public IActionResult DeleteBreakfast(Guid id)
+    {
+        _breakfastService.DeleteBreakfast(id);
+        return NoContent();
+    }
 }

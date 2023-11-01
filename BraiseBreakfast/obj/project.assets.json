@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "ErrorOr/0.1.0": {
+      "ErrorOr/1.3.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/ErrorOr.dll": {
@@ -28,18 +28,20 @@
     }
   },
   "libraries": {
-    "ErrorOr/0.1.0": {
-      "sha512": "adIVrA1Ixck5oZ79ZKB5f7k+aVlg4AB47nNHY14+qI8d+4//sTe0Dvbp8AIJEz/94OimmWjdGfei67q9UZPGig==",
+    "ErrorOr/1.3.0": {
+      "sha512": "Pr7fPsggiTauAXbxp8D2z/5wZvhgB1zgQ5ScsUeHrRCMT5Rzw3W6k6l1KzJPf8c0ExSSMJBLaaYiCF0hDs3EIw==",
       "type": "package",
-      "path": "erroror/0.1.0",
+      "path": "erroror/1.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "erroror.0.1.0.nupkg.sha512",
+        "erroror.1.3.0.nupkg.sha512",
         "erroror.nuspec",
         "icon-square.png",
         "lib/net6.0/ErrorOr.dll",
-        "lib/net6.0/ErrorOr.xml"
+        "lib/net6.0/ErrorOr.xml",
+        "lib/netstandard2.0/ErrorOr.dll",
+        "lib/netstandard2.0/ErrorOr.xml"
       ]
     },
     "BraiseBreakfast.Contracts/1.0.0": {
@@ -51,7 +53,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "BraiseBreakfast.Contracts >= 1.0.0",
-      "ErrorOr >= 0.1.0"
+      "ErrorOr >= 1.3.0"
     ]
   },
   "packageFolders": {
@@ -97,7 +99,7 @@
         "dependencies": {
           "ErrorOr": {
             "target": "Package",
-            "version": "[0.1.0, )"
+            "version": "[1.3.0, )"
           }
         },
         "imports": [

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "zFoH2CqyxcKdsvpUUYCQomxwduRxkI9IzxXxQSWgMHHpUZiLsQ1XeTAnQc7SjDWaoqQH5OozyZfJhiswYqup8Q==",
+  "dgSpecHash": "pgtiYCsBbGdu9tuGsjsGyzLUZk4EGJGLibZSnFOnfnrOedaamoGufAq/gn5eJ83xGZjVjH9oJs7Jc0V8/3Syog==",
   "success": true,
   "projectFilePath": "/home/clinton/Developer/AspNet/Breakfast/BraiseBreakfast/BraiseBreakfast/BraiseBreakfast.csproj",
   "expectedPackageFiles": [
-    "/home/clinton/.nuget/packages/erroror/0.1.0/erroror.0.1.0.nupkg.sha512",
+    "/home/clinton/.nuget/packages/erroror/1.3.0/erroror.1.3.0.nupkg.sha512",
     "/home/clinton/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.12/microsoft.aspnetcore.app.ref.7.0.12.nupkg.sha512"
   ],
   "logs": []
